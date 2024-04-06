@@ -14,7 +14,8 @@ func main() {
 		return
 	}
 	bot.Start()
-
+	// client := cohereclient.NewClient(cohereclient.WithToken(config.AuthToken))
+	
 	<-make(chan struct{})
 	return
 }
